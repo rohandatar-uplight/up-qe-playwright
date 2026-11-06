@@ -1,0 +1,17 @@
+Collecting allure-pytest
+  Downloading allure_pytest-2.16.2-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: pytest>=4.5.0 in ./.venv/lib/python3.15/site-packages (from allure-pytest) (9.2.0)
+Collecting allure-python-commons==2.16.2 (from allure-pytest)
+  Downloading allure_python_commons-2.16.2-py3-none-any.whl.metadata (5.7 kB)
+Collecting attrs>=16.0.0 (from allure-python-commons==2.16.2->allure-pytest)
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Requirement already satisfied: pluggy>=0.4.0 in ./.venv/lib/python3.15/site-packages (from allure-python-commons==2.16.2->allure-pytest) (1.7.0)
+Requirement already satisfied: iniconfig>=2 in ./.venv/lib/python3.15/site-packages (from pytest>=4.5.0->allure-pytest) (2.3.1)
+Requirement already satisfied: packaging>=24 in ./.venv/lib/python3.15/site-packages (from pytest>=4.5.0->allure-pytest) (26.3)
+Requirement already satisfied: pygments>=2.15 in ./.venv/lib/python3.15/site-packages (from pytest>=4.5.0->allure-pytest) (2.21.0)
+Downloading allure_pytest-2.16.2-py3-none-any.whl (12 kB)
+Downloading allure_python_commons-2.16.2-py3-none-any.whl (16 kB)
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Installing collected packages: attrs, allure-python-commons, allure-pytest
+
+Successfully installed allure-pytest-2.16.2 allure-python-commons-2.16.2 attrs-26.1.0
